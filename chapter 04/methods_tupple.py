@@ -1,0 +1,5 @@
+a = (1 , 2 ,4 ,4,5,4,4,4 ,6 , "amaan" , "uday" , False)
+no =a.count(4)
+print(no)
+i = a.index(4)
+print(i)
