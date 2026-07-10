@@ -1,0 +1,5 @@
+s = set()
+s.add(int(20))
+s.add(float(20.0))
+s.add('20')
+print(len(s))
