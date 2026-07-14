@@ -11,7 +11,7 @@ elif(marks>=60 and marks <70):
 elif(marks>=50 and marks<60):
     print("your grade is D")
 else:
-    print("you are fail")
+    print(" sorry ! you are fail")
 
 
 
