@@ -1,17 +1,17 @@
 marks = {
-    "harry" : 100,
-    "amaan" : 99,
-    "uday" : 98
+    "harry" : 100, # {keys : value
+    "amaan" : 99,  # keys : value
+    "uday" : 98    # keys : value}
 }
 # print(marks.items())
-# print(marks.keys())
+print(marks.keys())
 #left side is keys 
-#right sides is values 
 print(marks.values())
+#right sides is values 
 # marks.update({"harry" : 97 , "viju" : 91})
 # print(marks)
-print(marks.get("harry"))
-#this and this is not  same 
-#bcz [] this can give error
-#but  get fxn not give error
-print(marks["harry"])
+print(marks.get("harry"))#---------|
+#                                  |
+#                                  |---#this and this is not  same 
+#                                  |         |---#bcz [] this can give error 
+print(marks["harry"])#-------------|#but  get fxn not give error  
