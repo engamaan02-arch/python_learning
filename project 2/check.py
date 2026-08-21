@@ -44,5 +44,5 @@ elif(user== "rock" and num ==0):
 elif(user== "rock" and num==1):
      print(f"you lost !!\n computer choose{b1} and\n u choose rock\n try again!!!")
 else:
-    print("eroor wrong input")
+    print("error wrong input")
     
