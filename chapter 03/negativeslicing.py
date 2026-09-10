@@ -9,4 +9,4 @@ print(name[:4])#is same as starting from 0
 print(name[-1:-4])
 #this will give us no output 
 #so always remember in negative slicing
-# first number is should be big in value  
+# first number is should be big in magnitude  
